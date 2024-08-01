@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbarLeft{
+    margin-left:100px;
+}
+.navbarLeft span{
+    font-size: 2rem;
+}
+.navbarRight{
+    margin-right:50px;
+}
+.navbarRight span{
+    margin-right:20px;
+}
+.navbarIconImage{
+    height:30px;
+    width:30px;
+}
+.navbar button{
+    border:none;
+}
+.main{
+    background-image: url("../assets/backgrounds/loginbackground.jpg");
+    height: 70vh;
+
+}
+.mainText{
+    position: relative;
+    top:150px;
+    left:400px;
+    font-size: 5rem;
+}
+.thirdTop{
+    display: flex;
+    padding:0px 100px;
+    justify-content: space-between;
+}
+.thirdTopLeft{
+}
+.thirdTopRight span{
+    margin-right:20px;
+}
+.thirdImageDiv{
+    padding:0px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.thirdImageDiv img{
+    width:350px;
+    height: 400px;
+}

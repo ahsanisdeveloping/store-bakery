@@ -1,0 +1,52 @@
+.loginMain {
+    background-color: white;
+    padding:40px 30px 46px 30px;
+    border-radius: 20px;
+    width:30vw;
+    margin-right: 100px;
+    box-shadow: 1px 1px 10px;
+}
+.loginFormDiv {
+    display: flex;
+    flex-direction: column;
+    
+}
+.loginFormHeading{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 4rem;
+}
+.loginFormGroup{
+    margin-top: 10px;
+}
+.clickHereSpan{
+    position: relative;
+    top:15px;
+}
+.clickHere{
+    color:orange;
+    border-bottom: 1px solid transparent;
+    transition: all ease 200ms;
+}
+.clickHere:hover{
+    cursor: pointer;
+    border-bottom: 1px solid orange;
+
+}
+.loginButton{
+    margin-top: 10px;
+    background-color: rgb(251, 175, 32);
+    border: 1px solid black;
+    font-weight: bolder;
+  }
+  .loginButton:hover{
+    background-color:black;
+    color:rgb(251, 175, 32);
+    border: 1px solid  rgb(251, 175, 32);
+    font-weight: bolder;
+  }
+  .buttonDiv{
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }

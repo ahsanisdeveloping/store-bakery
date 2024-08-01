@@ -1,0 +1,13 @@
+.addItemMain{
+    padding:20px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addItemInputs{
+    width:300px;
+}
+.formDiv{
+
+}

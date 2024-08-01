@@ -1,0 +1,50 @@
+.authMain{
+    background-image: url("../assets/backgrounds/loginbackground.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.introHeading{
+    color: white;
+    font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+font-size: 4rem;
+    text-align: center;
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 0, 0, 0.279);
+}
+.introParagraph{
+    width:50vw;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+.introDiv{
+    padding: 30px 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.657);
+    height:380px;
+}
+.introButton{
+    margin-top:15px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    color:white;
+    padding:5px 20px;
+    text-decoration: none;
+}
+.introButton:hover{
+    color:rgb(252, 134, 0);
+    border-color: rgb(252, 134, 0);
+}

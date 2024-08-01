@@ -1,0 +1,19 @@
+.headerMain{
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.headerLink{
+    text-decoration: none;
+    font-size: 2rem;
+    color: orange;
+    font-weight: 700;
+    margin: 20px;
+    transition: all ease 300ms;
+}
+.headerLink:hover{
+    color:black;
+    border-bottom: orange 1px solid;
+}

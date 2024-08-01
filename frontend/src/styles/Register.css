@@ -1,0 +1,46 @@
+.registerMain {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width:30vw;
+    box-shadow: 1px 1px 10px;
+    margin-right: 100px;
+  }
+  .registerFormDiv {
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .registerFormHeading{
+      text-align: center;
+  }
+  .clickHereSpan{
+      position: relative;
+      top:7px;
+  }
+  .clickHere{
+      color:orange;
+      border-bottom: 1px solid transparent;
+      transition: all ease 200ms;
+  }
+  .clickHere:hover{
+      cursor: pointer;
+      border-bottom: 1px solid orange;
+  
+  }
+  .registerButton{
+    background-color: rgb(251, 175, 32);
+    border: 1px solid black;
+    font-weight: bolder;
+  }
+  .registerButton:hover{
+    background-color:black;
+    color:rgb(251, 175, 32);
+    border: 1px solid  rgb(251, 175, 32);
+    font-weight: bolder;
+  }
+  .buttonDiv{
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
